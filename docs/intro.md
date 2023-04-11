@@ -1,39 +1,14 @@
 (intro)=
 
-# Jupyter Book on Read the Docs
+# Welcome to AlphaMed Tutorials
 
-This example shows a Jupyter Book project built and published on Read the Docs.
-You're encouraged to use it to get inspiration and copy & paste from the files in [the source code repository][github]. In the source repository, you will also find the relevant configuration and instructions for building Jupyter Book projects on Read the Docs.
+AlphaMed 是一个基于区块链技术的去中心化联邦学习解决方案，旨在使医疗机构能够在保证其医疗数据隐私和安全的同时，实现多机构联合建模。医疗机构可以在本地节点实现模型的训练，并支持以匿名的身份将加密的参数共享至聚合节点，从而实现更安全、可信的联邦学习。
 
-If you are using Read the Docs for the first time, have a look at the official [Read the Docs Tutorial][tutorial].
-If you are using Jupyter Book for the first time, have a look at the [official Jupyter Book documentation][jb-docs].
+相比于传统的联邦学习，AlphaMed 平台不仅能够确保只有合法的且经过许可的参与者才能加入网络，同时支持节点的匿名化的参与联合建模。同时，区块链的共识算法能够确保网络中的节点得到一直的决策，恶意的参与者或者数据投毒等攻击将被拒绝，从而保证了联邦学习更好的安全性。
 
-## Why run Jupyter Book with Read the Docs?
+在联邦学习的过程中，各个参与方都受到智能合约的约束，并且所有的事件、操作都将被记录在区块链的分布式账本上，可追溯、可审计，使得联合机器学习的安全性和隐私保护能力极大的提升。
 
-[Read the Docs](https://readthedocs.org/) simplifies developing Jupyter Book projects by automating building, versioning, and hosting of your project for you.
-You might be familiar with Read the Docs for software documentation projects, but these features are just as relevant for science.
-
-With Read the Docs, you can improve collaboration on your Jupyter Book project with Git (GitHub, GitLab, BitBucket etc.) and then connect the Git repository to Read the Docs.
-Once Read the Docs and the git repository are connected, your project will be built and published automatically every time you commit and push changes with git.
-Furthermore, if you open Pull Requests, you can preview the result as rendered by Jupyter Book.
-
-## What is in this example?
-
-Jupyter Book has a number of built-in features.
-This is a small example book to give you a feel for how book content is structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation][jb-docs] for more information.
-
-* [Examples of Markdown](/markdown)
-* [Rendering a notebook Jupyter Notebook](/notebooks)
-* [A notebook written in MyST Markdown](/markdown-notebooks)
-
-We have also added some popular features for Jupyter Book that really you shouldn't miss when building your own project with Jupyter Book and Read the Docs:
-
-* [intersphinx to link to other documentation and Jupyter Book projects](/intersphinx)
-* [sphinx-examples to show examples and results side-by-side](/sphinx-examples)
-* [sphinx-hoverxref to preview cross-references](/sphinx-hoverxref)
-* [sphinx-proof for logic and math, to write proofs, theorems, lemmas etc.](/sphinx-proof)
+本项目用与编辑和管理 AlphaMed 相关说明文档。
 
 
 ## Table of Contents
@@ -43,6 +18,4 @@ Here is an automatically generated Tabel of Contents:
 ```{tableofcontents}
 ```
 
-[github]: https://github.com/readthedocs-examples/example-jupyter-book/ "GitHub source code repository for the example project"
-[tutorial]: https://docs.readthedocs.io/en/stable/tutorial/index.html "Official Read the Docs Tutorial"
-[jb-docs]: https://jupyterbook.org/en/stable/ "Official Jupyter Book documentation"
+[github]: https://github.com/ssplabs/alphamed-docs/ "GitHub source code repository for the alphamed docs project"
