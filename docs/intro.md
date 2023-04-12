@@ -1,6 +1,6 @@
 (intro)=
 
-# Welcome to AlphaMed Tutorials
+# AlphaMed Tutorials
 
 AlphaMed 是一个基于区块链技术的去中心化联邦学习解决方案，旨在使医疗机构能够在保证其医疗数据隐私和安全的同时，实现多机构联合建模。医疗机构可以在本地节点实现模型的训练，并支持以匿名的身份将加密的参数共享至聚合节点，从而实现更安全、可信的联邦学习。
 
@@ -11,9 +11,7 @@ AlphaMed 是一个基于区块链技术的去中心化联邦学习解决方案�
 本项目用与编辑和管理 AlphaMed 相关说明文档。
 
 
-## Table of Contents
-
-Here is an automatically generated Tabel of Contents:
+## 目录
 
 ```{tableofcontents}
 ```
