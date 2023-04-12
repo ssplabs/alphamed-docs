@@ -4,12 +4,9 @@
 format: jb-book
 root: intro
 parts:
-- caption: hetero_nn
-  chapters:
-  - file: hetero_nn/README
-  - file: hetero_nn/HeteroNN
-- caption: tutorial
-  chapters:
+# - caption: hetero_nn
+- caption: AlphaMed 平台算法手册
+  chapters: Tutorials
   - file: tutorial/1. AlphaMed 平台架构简介
   - file: tutorial/2. 在 AlphaMed 平台上运行普通模型
   - file: tutorial/3. 横向联邦学习环境简介
@@ -20,3 +17,6 @@ parts:
   - file: tutorial/8. 自定义联邦学习算法
   - file: tutorial/9. 使用自定义联邦学习算法训练模型
   - file: tutorial/10. 横向联邦 AutoModel 简介
+  chapters: Hetero_nn
+  - file: hetero_nn/README
+  - file: hetero_nn/HeteroNN
