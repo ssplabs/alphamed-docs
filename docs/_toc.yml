@@ -4,7 +4,7 @@
 format: jb-book
 root: intro
 parts:
-- caption: AlphaMed 平台算法手册
+- caption: AlphaMed 功能简介
   chapters:
   - file: tutorial/1. AlphaMed 平台架构简介
   - file: tutorial/2. 在 AlphaMed 平台上运行普通模型
@@ -15,12 +15,15 @@ parts:
   - file: tutorial/7. 数据传输
   - file: tutorial/8. 自定义联邦学习算法
   - file: tutorial/9. 使用自定义联邦学习算法训练模型
-  - file: tutorial/10. 横向联邦 AutoModel 简介
-- caption: Hetero_NN
+  - file: tutorial/10. AutoML 机制简介
+  - file: tutorial/11. 横向联邦 AutoModel 简介
+- caption: 横向联邦任务
+  chapters:
+  - file: fed_avg/README
+  - file: fed_avg/FedAvg
+  - file: fed_avg/SecureFedAvg
+  - file: fed_avg/DPFedAvg
+- caption: 异构联邦任务
   chapters:
   - file: hetero_nn/README
   - file: hetero_nn/HeteroNN
-- caption: Fed_AVG
-  chapters:
-  - file: fed_avg/README
-  - glob: fed_avg/*
