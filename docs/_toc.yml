@@ -34,3 +34,10 @@ parts:
   - file: hetero_nn/README
     sections:
     - file: hetero_nn/HeteroNN
+- caption: 自定义联邦算法
+  chapters:
+  - file: customized_scheduler/README
+    sections:
+    - file: customized_scheduler/message
+    - file: customized_scheduler/data
+    - file: customized_scheduler/scheduler
