@@ -41,3 +41,9 @@ parts:
     - file: customized_scheduler/message
     - file: customized_scheduler/data
     - file: customized_scheduler/scheduler
+- caption: 自动建模任务
+  chapters:
+  - file: auto_ml/README
+    sections:
+    - file: auto_ml/user
+    - file: auto_ml/developer
