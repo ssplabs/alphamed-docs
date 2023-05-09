@@ -47,3 +47,6 @@ parts:
     sections:
     - file: auto_ml/user
     - file: auto_ml/developer
+- caption: 数据安全
+  chapters:
+  - file: safety/README
