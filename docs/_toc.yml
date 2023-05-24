@@ -24,11 +24,13 @@ parts:
   - file: mock/README
 - caption: 横向联邦任务
   chapters:
-  - file: fed_avg/README
+  - file: homo_fl
     sections:
+    - file: fed_avg/README
     - file: fed_avg/FedAvg
     - file: fed_avg/SecureFedAvg
     - file: fed_avg/DPFedAvg
+    - file: fed_prox/README
 - caption: 异构联邦任务
   chapters:
   - file: hetero_nn/README
@@ -47,6 +49,13 @@ parts:
     sections:
     - file: auto_ml/user
     - file: auto_ml/developer
+- caption: 基准算法与数据集
+  chapters:
+  - file: baseline/README
+    sections:
+    - file: baseline/dataset
+    - file: baseline/scheduler
+    - file: baseline/research_example
 - caption: 数据安全
   chapters:
   - file: safety/README
